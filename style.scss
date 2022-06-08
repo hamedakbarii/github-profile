@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	font-size: 1.5rem;
+	font-family: "poppins", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	// background-color: #f3f3f4;
+
+	// background: rgb(216, 236, 245);
+	background: linear-gradient(90deg, rgba(216, 236, 245, 1) 50%, rgba(57, 44, 241, 1) 50%);
+}
+/* ***************************** */
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__input {
+	text-align: center;
+	padding: 1rem;
+	background-color: black;
+	border: none;
+	border-radius: 1rem;
+	margin-top: 10rem;
+}
+
+.main__input label {
+	font-family: inherit;
+	font-weight: 500;
+	color: snow;
+	font-size: 1rem;
+}
+
+.main__input input {
+	border-radius: 0.5rem;
+	border: none;
+	padding: 0.5rem;
+}
+
+.main__input button {
+	border-radius: 0.5rem;
+	border: none;
+	padding: 0.5rem;
+	transition: all 0.3s ease;
+}
+
+.main__input button:hover {
+	color: snow;
+	background-color: black;
+	cursor: pointer;
+}
+
+// --------------------------------------------------------
+// --------------------------------------------------------
+
+.main__user--profile {
+	margin-top: 7rem;
+	border-radius: 1rem;
+	border: none;
+	display: flex;
+	background-color: snow;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	display: none;
+}
+
+.user__profile--left {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user__profile--right {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile__left--right {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 1rem;
+}
+
+.profile__left--right ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile__left--right ul li {
+	padding: 0.5rem;
+	font-size: 0.7rem;
+}
+
+.profile__left--right h1 {
+	color: black;
+	font-size: 1rem;
+}
+
+.profile__left--right p {
+	color: gray;
+	font-size: 0.7rem;
+}
+
+.user__profile--right i {
+	padding: 0.5rem;
+	// background-color: gray;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	font-size: 0.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	margin-right: 0.5rem;
+	cursor: pointer;
+}
+
+.profile__left--left img {
+	width: 5rem;
+	border: none;
+	border-radius: 50%;
+}
